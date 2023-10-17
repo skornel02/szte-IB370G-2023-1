@@ -1,0 +1,54 @@
+Germany varosai:
+	Augsburg
+	Berlin
+	Braunschweig
+	Bremen
+	Cologne
+	Dortmund
+	Düsseldorf
+	Frankfurt
+	Freiburg
+	Fürth
+	Gelsenkirchen
+	Hamburg
+	Hamburg
+	Hanover
+	Kaiserslautern
+	Leverkusen
+	Mainz
+	Munich
+	Mönchengladbach
+	Nuremberg
+	Sinsheim
+	Stuttgart
+	Wolfsburg
+----------
+Spain varosai:
+	A Coruña
+	Almería
+	Barcelona
+	Bilbao
+	Cornellà de Llobregat
+	Elche
+	Getafe
+	Gijón
+	Granada
+	Madrid
+	Madrid
+	Madrid
+	Málaga
+	Palma
+	Pamplona
+	San Sebastián
+	Santander
+	Seville
+	Seville
+	Valencia
+	Valencia
+	Valladolid
+	Vigo
+	Villarreal
+	Zaragoza
+----------
+Hungary varosai:
+----------
