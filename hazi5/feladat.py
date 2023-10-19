@@ -1,5 +1,5 @@
 def read_file(filename: str) -> list[list[str]]:
-    with open(filename, "r") as f:
+    with open(filename, "r", encoding="utf8") as f:
         sorok = f.readlines()
         adatok = []
         for sor in sorok[1:]:
@@ -7,9 +7,18 @@ def read_file(filename: str) -> list[list[str]]:
         return adatok
 
 def write_file(filename: str, lines: list[str], mode: str = "w") -> None:
-    with open(filename, mode) as f:
+    with open(filename, mode, encoding="utf8") as f:
         for line in lines:
             f.write(line + "\n")
+
+# with
+# with
+# with
+# with
+# with
+# with
+# with
+# with
 
 def legnagyobb_stadion(filename: str) -> None:
     data = read_file(filename)
@@ -80,4 +89,4 @@ def varosok_szama(filename: str, *orszagok: list[str]) -> None:
 #legnagyobb_stadion("stadium.csv")
 #osszes_arena("stadium.csv")
 #osszes_park("stadium.csv")
-#varosok_szama("stadium.csv", "Germany", "Spain", "Hungary")
+varosok_szama("stadium.csv", "Germany", "Spain", "Hungary")
