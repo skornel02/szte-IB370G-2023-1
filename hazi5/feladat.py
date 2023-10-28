@@ -1,9 +1,12 @@
 def read_file(filename: str) -> list[list[str]]:
     with open(filename, "r", encoding="utf8") as f:
-        sorok = f.readlines()
+        lines = 0
         adatok = []
-        for sor in sorok[1:]:
-            adatok.append([data.strip() for data in sor.strip().split(",")])
+        while line := f.readline():
+            if lines == 0:
+                lines += 1
+                continue
+            adatok.append([data.strip() for data in line.strip().split(",")])
         return adatok
 
 def write_file(filename: str, lines: list[str], mode: str = "w") -> None:
@@ -89,4 +92,4 @@ def varosok_szama(filename: str, *orszagok: list[str]) -> None:
 #legnagyobb_stadion("stadium.csv")
 #osszes_arena("stadium.csv")
 #osszes_park("stadium.csv")
-varosok_szama("stadium.csv", "Germany", "Spain", "Hungary")
+#varosok_szama("stadium.csv", "Germany", "Spain", "Hungary")
