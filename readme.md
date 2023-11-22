@@ -1,0 +1,2 @@
+# Script nyelvek órai feladatok
+
